@@ -1,0 +1,38 @@
+.dashcon-right{
+    /* border: 1px solid black; */
+    position: fixed;
+    margin-left: 1070px;
+    bottom: 5px;
+    height: 300px;
+    width: 205px;
+    border-color: rgb(127, 127, 127);
+    border-radius: 3px;
+    text-align:left;
+    background-color: rgba(237, 237, 237, 0.73);
+    animation-name: dash;
+    animation-duration: 1s;
+    box-shadow: 2px 2px 2px gray;
+}
+@keyframes dash{
+    0%   {opacity: 0;}
+    80%  {opacity: 1;}
+    100% {transform: translateY(-30px); opacity: 1;}
+    
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5px;
+}
+.date{
+    color: black;
+}
+.time{
+   color: black;
+}
+.tasks{
+    font-style: italic;
+    font-family: sans-serif;
+    text-decoration:underline;
+}
