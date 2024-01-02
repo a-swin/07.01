@@ -48,7 +48,7 @@ function Navbar() {
               <Typography  variant='h8' className='Username'>Username</Typography >
               </div>
             </div>
-
+ 
           </Toolbar>
         </AppBar>
 
