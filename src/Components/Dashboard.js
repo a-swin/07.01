@@ -24,7 +24,7 @@ function Dashboard() {
     { name: 'Sept', pv: 18 },
     { name: 'Oct', pv: 10},
     { name: 'Nov', pv: 1},
-    { name: 'Dec', pv: 31},
+    { name: 'Dec', pv: 31}, 
   ];
   
   
