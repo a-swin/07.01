@@ -9,7 +9,7 @@ import Navbar from '../Navbar';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import Dashcon from './Dash-cont';
 
-
+ 
 function Dashboard() {
 
   const data = [
