@@ -1,5 +1,4 @@
-
-.leftcontent {
+.leftcontents{
     background-color: rgba(120, 136, 255, 0.938);
     display: flex;
     flex-direction: column;
@@ -9,7 +8,7 @@
     height: 100%;
 }
 
-.search {
+.searchs{
     border-radius: 15px;
     border: transparent;
     border-color: rgba(120, 136, 255, 0.938) !important;
@@ -18,36 +17,98 @@
     padding-left: 12px !important;
 }
 
-.logo {
+.logos {
     display: grid;
     grid-template-columns: 700px 280px 60px 80px;
     justify-content: center;
     align-items: center;
 }
 
-.Username {
+.Usernames {
     font-family: sans-serif;
     font-weight: bold;
 }
 
-.appbar {
+.appbars{
     background-color: rgba(120, 136, 255, 0.938);
 }
 
-.lnk1 Button {
-    text-align:left;
+.lnks1 Button {
     margin-top: 44px;
     color: rgb(255, 255, 255);
     text-decoration: solid;
     font-family: sans-serif;
     font-weight: bold;
+    position: relative;
+}
+.lnks2 Button {
+    margin-top: 44px;
+    color: rgb(255, 255, 255);
+    text-decoration: solid;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: -12px;
+}.lnks3 Button {
+    margin-top: 44px;
+    color: rgb(255, 255, 255);
+    text-decoration: solid;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: -15px;
+}.lnks4 Button {
+    margin-top: 44px;
+    color: rgb(255, 255, 255);
+    text-decoration: solid;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: -6px;
+}.lnks5 Button {
+    margin-top: 44px;
+    color: rgb(255, 255, 255);
+    text-decoration: solid;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: -10px;
+}
+.dash-text01{
+    margin-left: 10px;
 }
 
-.lnk1:hover {
+.lnks1:hover {
     border-bottom: 1px solid white;
+    animation-name: borders;
+    animation-duration: 1s;
+}
+.lnks2:hover {
+    border-bottom: 1px solid white;
+    animation-name: borders;
+    animation-duration: 1s;
+}
+.lnks3:hover {
+    border-bottom: 1px solid white;
+    animation-name: borders;
+    animation-duration: 1s;
+}
+.lnks4:hover {
+    border-bottom: 1px solid white;
+    animation-name: borders;
+    animation-duration: 1s;
+}
+.lnks5:hover {
+    border-bottom: 1px solid white;
+    animation-name: borders;
+    animation-duration: 1s;
+}
+@keyframes borders {
+    0%   {border-bottom: 1px solid transparent;}
+    100% {border-bottom: 1px solid white;}
 }
 
-.logout {
+.logouts {
     margin-top: 100px;
 }
 
@@ -144,4 +205,8 @@
     background-color: rgba(123, 123, 123, 0.407);
     border-radius: 15px;
     box-shadow: 2px 1px 1px gray;
+  
+}
+.dashlogo{
+    width: 25px;
 }
