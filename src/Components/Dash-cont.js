@@ -8,6 +8,8 @@ function Dashcon() {
     const [currentDate, setCurrentDate] = useState(new Date());
     const [currentTime, setCurrentTime] = useState(new Date());
 
+    function handleclick(){}
+
 
     useEffect(() => {
         const intervalId = setInterval(() => {
